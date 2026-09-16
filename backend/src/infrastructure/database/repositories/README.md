@@ -1,0 +1,1 @@
+Repositories will be introduced with booking use cases. Their method signatures should accept an optional Mongoose ClientSession so later booking operations can participate in MongoDB transactions without coupling domain logic to Mongoose.
